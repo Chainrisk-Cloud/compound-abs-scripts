@@ -6,15 +6,15 @@ The Chainrisk Cloud platform specifically targets the Compound V3 Price Oracle, 
 
 To effectively use the Chainrisk simulator for ABS simulation, scripts are divided into five main modules:
 
-- Agents: Agents emulate the user behaviour in the simulations like liquidators, borrowers, suppliers, arbitrageurs and attacker ( in case of economic exploit simulation ). 
+- **Agents**: Agents emulate the user behaviour in the simulations like liquidators, borrowers, suppliers, arbitrageurs and attacker ( in case of economic exploit simulation ). 
 
-- Scenarios: Scenarios scripts create the environment for the simulation like signing the transactions, funding wallets, changing the values of the risk parameters, etc 
+- **Scenarios**: Scenarios scripts create the environment for the simulation like signing the transactions, funding wallets, changing the values of the risk parameters, etc 
 
-- Observers: Observer scripts monitor the state of the blockchain during the course of simulation and accordingly, generates the visualisation library.
+- **Observers**: Observer scripts monitor the state of the blockchain during the course of simulation and accordingly, generates the visualisation library.
 
-- Assertions: Assertion scripts are discrete arithmetic statements which checks if certain functions are being performed properly ( returns a boolean value ) 
+- **Assertions**: Assertion scripts are discrete arithmetic statements which checks if certain functions are being performed properly ( returns a boolean value ) 
 
-- Contracts: Contract scripts are custom solidity contracts that needs to deployed like flash loan contract, dummy oracle contract etc for the simulation.
+- **Contracts**: Contract scripts are custom solidity contracts that needs to deployed like flash loan contract, dummy oracle contract etc for the simulation.
 
 ## Demo Video
 
